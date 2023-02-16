@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width:920px) {
+    .div-modal-sapato {
+       width: 100%;
+    }
+    .img-sapato-modal {
+        height: 142px;
+    }
+    .div-parcela-like {
+        width: 134px;
+        height: 21px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn-curtir {
+        background-color: #fff;
+        border: none;
+    }
+    .img-like {
+        height: 17px;
+    }
+}

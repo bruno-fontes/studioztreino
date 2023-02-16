@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-principal-modal {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-modal {
+    background-color: #c1c1c1;
+    height: 28vh;
+    width: 479px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-modal {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn-voltar {
+    width: 57px;
+    height: 27px;
+    background-color: #000;
+    border: none;
+    color: #c1c1c1;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn-voltar:hover {
+    color: #fff;
+}
+
+@media screen and (max-width:920px) {
+    .div-principal-modal {
+        display: none;
+    }
+}
